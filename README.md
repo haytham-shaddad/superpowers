@@ -10,7 +10,7 @@ Once it's teased a spec out of the conversation, it shows it to you in chunks sh
 
 After you've signed off on the design, your agent puts together an implementation plan that's clear enough for an enthusiastic junior engineer with poor taste, no judgement, no project context, and an aversion to testing to follow. It emphasizes true red/green TDD, YAGNI (You Aren't Gonna Need It), and DRY. 
 
-Next up, once you say "go", it launches a *subagent-driven-development* process, having agents work through each engineering task, inspecting and reviewing their work, and continuing forward. It's not uncommon for Claude to be able to work autonomously for a couple hours at a time without deviating from the plan you put together.
+Next up, once you say "go", it launches a *subagent-driven-development* process, having agents work through each engineering task, inspecting and reviewing their work, and continuing forward. It's not uncommon for an agent to work autonomously for a couple hours at a time without deviating from the plan you put together.
 
 There's a bunch more to it, but that's the core of the system. And because the skills trigger automatically, you don't need to do anything special. Your coding agent just has Superpowers.
 
@@ -26,7 +26,27 @@ Thanks!
 
 ## Installation
 
-**Note:** Installation differs by platform. Claude Code has a built-in plugin system. Codex and OpenCode require manual setup.
+**Note:** Installation differs by platform. Choose the method that matches your environment.
+
+### Squad AI Team (GitHub Copilot in VS Code and CLI)
+
+Superpowers skills are available as [Squad](https://github.com/bradygaster/squad) AI Team skills. Copy the Squad-compatible skills into your project:
+
+```bash
+# Copy Squad-compatible skills into your project's .ai-team/skills/
+cp -r .ai-team/skills/superpowers-* /path/to/your-project/.ai-team/skills/
+```
+
+Or clone and copy:
+
+```bash
+git clone https://github.com/obra/superpowers.git .superpowers
+cp -r .superpowers/.ai-team/skills/* .ai-team/skills/
+```
+
+Squad agents will automatically discover the skills. Copilot instructions are provided in `.github/copilot-instructions.md`.
+
+**Detailed docs:** [docs/squad-integration.md](docs/squad-integration.md)
 
 ### Claude Code (via Plugin Marketplace)
 
@@ -41,10 +61,6 @@ Then install the plugin from this marketplace:
 ```bash
 /plugin install superpowers@superpowers-marketplace
 ```
-
-### Verify Installation
-
-Start a new session and ask Claude to help with something that would trigger a skill (e.g., "help me plan this feature" or "let's debug this issue"). Claude should automatically invoke the relevant superpowers skill.
 
 ### Codex
 
@@ -65,6 +81,10 @@ Fetch and follow instructions from https://raw.githubusercontent.com/obra/superp
 ```
 
 **Detailed docs:** [docs/README.opencode.md](docs/README.opencode.md)
+
+### Verify Installation
+
+Start a new session and ask your agent to help with something that would trigger a skill (e.g., "help me plan this feature" or "let's debug this issue"). The agent should automatically invoke the relevant superpowers skill.
 
 ## The Basic Workflow
 
@@ -130,14 +150,6 @@ Skills live directly in this repository. To contribute:
 
 See `skills/writing-skills/SKILL.md` for the complete guide.
 
-## Updating
-
-Skills update automatically when you update the plugin:
-
-```bash
-/plugin update superpowers
-```
-
 ## License
 
 MIT License - see LICENSE file for details
@@ -146,3 +158,31 @@ MIT License - see LICENSE file for details
 
 - **Issues**: https://github.com/obra/superpowers/issues
 - **Marketplace**: https://github.com/obra/superpowers-marketplace
+
+---
+
+## Claude Code and Jesse-Specific Instructions
+
+> The instructions below are specific to Claude Code and the original Superpowers author's workflow. They are preserved here for users of those tools but are not required for Squad AI Team, GitHub Copilot, or other agent platforms.
+
+### Updating (Claude Code)
+
+Skills update automatically when you update the plugin:
+
+```bash
+/plugin update superpowers
+```
+
+### Claude Code Plugin Details
+
+- **Plugin config:** `.claude-plugin/plugin.json`
+- **Marketplace config:** `.claude-plugin/marketplace.json`
+- **Hooks:** `hooks/hooks.json` (SessionStart hook for initialization)
+- The `Skill` tool in Claude Code loads skill content directly — never use the Read tool on skill files.
+
+### Jesse's Workflow Notes
+
+- Plans are saved to `docs/plans/` with dated filenames
+- "your human partner" in skill files refers to the person working with the agent
+- "Fix broken things immediately" is a core principle
+- Honesty and evidence-based verification are non-negotiable values
