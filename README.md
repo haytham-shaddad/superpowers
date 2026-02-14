@@ -182,7 +182,6 @@ Skills update automatically when you update the plugin:
 
 ### Jesse's Workflow Notes
 
-- Plans are saved to `docs/plans/` with dated filenames
 - "your human partner" in skill files refers to the person working with the agent
 - "Fix broken things immediately" is a core principle
 - Honesty and evidence-based verification are non-negotiable values

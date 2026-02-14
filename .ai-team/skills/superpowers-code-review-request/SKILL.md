@@ -10,8 +10,6 @@ source: "manual"
 
 Use when completing tasks, implementing major features, or before merging to verify work meets requirements. Dispatch a code reviewer subagent to catch issues before they cascade.
 
-Sourced from [Superpowers](https://github.com/obra/superpowers) by Jesse Vincent.
-
 ## Patterns
 
 1. **Self-check first** — Run through compliance checklist before requesting review
@@ -33,7 +31,3 @@ Sourced from [Superpowers](https://github.com/obra/superpowers) by Jesse Vincent
 - Self-reviewing without a separate agent/person
 - Ignoring review feedback
 - Not categorizing issue severity
-
-## See Also
-
-For the full skill content, see `skills/requesting-code-review/SKILL.md` in the Superpowers repository.

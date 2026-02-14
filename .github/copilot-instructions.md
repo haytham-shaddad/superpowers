@@ -28,7 +28,6 @@ Before starting any task, check if a relevant skill exists in `.ai-team/skills/`
 
 1. Read the relevant `SKILL.md` file from `.ai-team/skills/superpowers-{name}/SKILL.md`
 2. Follow the patterns described in the skill
-3. For the full detailed skill content, reference `skills/{name}/SKILL.md` in the repository root
 
 ### Core Principles
 
@@ -43,10 +42,3 @@ Before starting any task, check if a relevant skill exists in `.ai-team/skills/`
 If this project uses [Squad](https://github.com/bradygaster/squad), Superpowers skills are available as Squad skills in `.ai-team/skills/`. They follow Squad's SKILL.md format with `domain`, `confidence`, and `source` frontmatter fields.
 
 Squad agents should read relevant Superpowers skills before working on tasks. The skills are compatible with Squad's skill-aware routing system.
-
-## Plans
-
-Implementation plans should be saved to `docs/plans/` with dated filenames following the pattern:
-```
-docs/plans/YYYY-MM-DD-description.md
-```

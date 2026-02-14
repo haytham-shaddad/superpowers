@@ -10,8 +10,6 @@ source: "manual"
 
 Use when creating new skills, editing existing skills, or verifying skills work before deployment. Writing skills IS Test-Driven Development applied to process documentation.
 
-Sourced from [Superpowers](https://github.com/obra/superpowers) by Jesse Vincent.
-
 ## Patterns
 
 ### Skill File Format (Squad-compatible)
@@ -46,7 +44,3 @@ source: "manual|observed|earned"
 - Skills without anti-patterns section
 - Skills that can't be tested
 - Overly long skills that won't fit in context
-
-## See Also
-
-For the full skill content, see `skills/writing-skills/SKILL.md` in the Superpowers repository.

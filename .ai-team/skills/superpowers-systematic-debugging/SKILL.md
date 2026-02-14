@@ -10,8 +10,6 @@ source: "manual"
 
 Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes. Random fixes waste time and create new bugs. Quick patches mask underlying issues.
 
-Sourced from [Superpowers](https://github.com/obra/superpowers) by Jesse Vincent.
-
 ## Patterns
 
 ### 4-Phase Process
@@ -43,7 +41,3 @@ Sourced from [Superpowers](https://github.com/obra/superpowers) by Jesse Vincent
 - Fixing symptoms instead of root causes
 - Not adding regression tests
 - Assuming the first hypothesis is correct without testing it
-
-## See Also
-
-For the full skill content, see `skills/systematic-debugging/SKILL.md` in the Superpowers repository.

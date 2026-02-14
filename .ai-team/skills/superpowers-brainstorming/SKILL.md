@@ -10,8 +10,6 @@ source: "manual"
 
 This skill MUST be used before any creative work. It guides collaborative design refinement through Socratic dialogue — exploring user intent, requirements, and design before implementation begins.
 
-Sourced from [Superpowers](https://github.com/obra/superpowers) by Jesse Vincent.
-
 ## Patterns
 
 1. **Understand context first** — Review current project state before asking questions
@@ -38,7 +36,3 @@ Do NOT invoke any implementation skill, write any code, scaffold any project, or
 - Asking 10 questions at once (overwhelms the human)
 - Treating brainstorming as optional for "simple" tasks
 - Skipping design approval before implementation
-
-## See Also
-
-For the full skill content, see `skills/brainstorming/SKILL.md` in the Superpowers repository.

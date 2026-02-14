@@ -10,8 +10,6 @@ source: "manual"
 
 Use when implementing any feature or bugfix, before writing implementation code. This is a rigid skill — follow it exactly. Don't adapt away from the discipline.
 
-Sourced from [Superpowers](https://github.com/obra/superpowers) by Jesse Vincent.
-
 ## Patterns
 
 ### The Cycle
@@ -55,7 +53,3 @@ test("add returns sum of two numbers", () => {
 - Testing implementation details instead of behavior
 - Skipping the RED step (test must fail first)
 - Large refactoring steps that break tests
-
-## See Also
-
-For the full skill content, see `skills/test-driven-development/SKILL.md` in the Superpowers repository.

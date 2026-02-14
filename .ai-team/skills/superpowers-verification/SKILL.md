@@ -10,8 +10,6 @@ source: "manual"
 
 Use when about to claim work is complete, fixed, or passing — before committing or creating PRs. Requires running verification commands and confirming output before making any success claims.
 
-Sourced from [Superpowers](https://github.com/obra/superpowers) by Jesse Vincent.
-
 ## Patterns
 
 1. **Run all tests** — Execute the full test suite, not just the ones you think are relevant
@@ -42,7 +40,3 @@ Never say "it should work" or "tests should pass." Run the commands. Report actu
 - Saying "should work" instead of "verified: works"
 - Skipping the build step
 - Not checking linter output
-
-## See Also
-
-For the full skill content, see `skills/verification-before-completion/SKILL.md` in the Superpowers repository.

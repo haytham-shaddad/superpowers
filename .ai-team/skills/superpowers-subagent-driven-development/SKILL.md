@@ -10,8 +10,6 @@ source: "manual"
 
 Use when executing implementation plans with independent tasks. Each task is dispatched to a fresh subagent (or squad member) with full context. After completion, two review stages: spec compliance, then code quality.
 
-Sourced from [Superpowers](https://github.com/obra/superpowers) by Jesse Vincent.
-
 ## Patterns
 
 1. **Fresh agent per task** — Each task gets a clean context with the plan and relevant files
@@ -29,7 +27,7 @@ In a Squad context, this maps naturally to the coordinator spawning agents for e
 ## Examples
 
 **Task dispatch:**
-1. Read plan task #3 from `docs/plans/feature.md`
+1. Read the plan task #3
 2. Spawn agent with task context + relevant files
 3. Agent implements + tests
 4. Review stage 1: Does it match the spec?
@@ -42,7 +40,3 @@ In a Squad context, this maps naturally to the coordinator spawning agents for e
 - Skipping the review stages
 - Having the same agent review its own work
 - Not providing full context in the dispatch prompt
-
-## See Also
-
-For the full skill content, see `skills/subagent-driven-development/SKILL.md` in the Superpowers repository.

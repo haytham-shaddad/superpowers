@@ -10,8 +10,6 @@ source: "manual"
 
 Use when starting feature work that needs isolation from the current workspace, or before executing implementation plans. Git worktrees create isolated workspaces sharing the same repository, allowing work on multiple branches simultaneously without switching.
 
-Sourced from [Superpowers](https://github.com/obra/superpowers) by Jesse Vincent.
-
 ## Patterns
 
 1. **Create worktree for each feature** — `git worktree add ../<project>-<feature> -b feature/<name>`
@@ -44,7 +42,3 @@ git worktree remove ../myapp-login
 - Forgetting to run setup (npm install, etc.) in the new worktree
 - Not cleaning up worktrees after merging
 - Creating worktrees inside the repository directory
-
-## See Also
-
-For the full skill content, see `skills/using-git-worktrees/SKILL.md` in the Superpowers repository.

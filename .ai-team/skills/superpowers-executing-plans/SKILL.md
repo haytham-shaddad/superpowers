@@ -10,8 +10,6 @@ source: "manual"
 
 Use when you have a written implementation plan to execute. Load the plan, review it critically, execute tasks in batches, and report for review between batches.
 
-Sourced from [Superpowers](https://github.com/obra/superpowers) by Jesse Vincent.
-
 ## Patterns
 
 1. **Load and review the plan** — Read the full plan before starting; flag any issues
@@ -24,7 +22,7 @@ Sourced from [Superpowers](https://github.com/obra/superpowers) by Jesse Vincent
 ## Examples
 
 **Workflow:**
-1. Load plan from `docs/plans/2026-02-14-feature-x.md`
+1. Load the plan file
 2. Execute tasks 1–3 (related setup tasks)
 3. Report: "Tasks 1–3 complete. Tests passing. Ready for tasks 4–6?"
 4. Get approval, continue
@@ -35,7 +33,3 @@ Sourced from [Superpowers](https://github.com/obra/superpowers) by Jesse Vincent
 - Skipping verification steps to "save time"
 - Not using worktrees for isolation
 - Modifying the plan without discussing changes first
-
-## See Also
-
-For the full skill content, see `skills/executing-plans/SKILL.md` in the Superpowers repository.

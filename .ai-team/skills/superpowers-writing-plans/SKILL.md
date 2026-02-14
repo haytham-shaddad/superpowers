@@ -10,8 +10,6 @@ source: "manual"
 
 Use when you have a spec or requirements for a multi-step task, before touching code. Write plans assuming the engineer has zero context and questionable taste. Document everything: which files to touch, code, testing, docs, how to verify. Bite-sized tasks (2–5 minutes each). DRY. YAGNI. TDD. Frequent commits.
 
-Sourced from [Superpowers](https://github.com/obra/superpowers) by Jesse Vincent.
-
 ## Patterns
 
 1. **Announce the skill** — "I'm using the writing-plans skill to create the implementation plan."
@@ -20,7 +18,7 @@ Sourced from [Superpowers](https://github.com/obra/superpowers) by Jesse Vincent
 4. **Complete code** — Include the code to write, not just descriptions
 5. **Verification steps** — Every task has a way to verify it worked
 6. **TDD emphasis** — Tests come first in every task
-7. **Save to docs/plans/** — Plans are persisted as dated markdown files
+7. **Save the plan** — Plans are persisted as dated markdown files
 
 ### Plan Format
 
@@ -49,7 +47,3 @@ A good plan task:
 - Tasks that take more than 10 minutes
 - Plans without verification steps
 - Not saving the plan to a file
-
-## See Also
-
-For the full skill content, see `skills/writing-plans/SKILL.md` in the Superpowers repository.

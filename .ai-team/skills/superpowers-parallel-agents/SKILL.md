@@ -10,8 +10,6 @@ source: "manual"
 
 Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies. Investigating them sequentially wastes time when each investigation is independent.
 
-Sourced from [Superpowers](https://github.com/obra/superpowers) by Jesse Vincent.
-
 ## Patterns
 
 1. **Identify independence** — Tasks must not share state or have sequential dependencies
@@ -29,7 +27,3 @@ In a Squad context, this maps directly to the coordinator spawning multiple agen
 - Not providing full context to each agent
 - Not reviewing parallel results for conflicts
 - Using parallel dispatch for sequential work
-
-## See Also
-
-For the full skill content, see `skills/dispatching-parallel-agents/SKILL.md` in the Superpowers repository.

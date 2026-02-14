@@ -14,7 +14,7 @@ Superpowers skills are provided in two formats:
 
 1. **Original format** (`skills/` directory) — Full skill files with Superpowers frontmatter (`name`, `description`). These are the authoritative, detailed versions used by Claude Code, Codex, and OpenCode.
 
-2. **Squad format** (`.ai-team/skills/` directory) — Squad-compatible skill files with full Squad frontmatter (`name`, `description`, `domain`, `confidence`, `source`). These are concise summaries that reference the full skill content.
+2. **Squad format** (`.ai-team/skills/` directory) — Squad-compatible skill files with full Squad frontmatter (`name`, `description`, `domain`, `confidence`, `source`).
 
 ### Using with Squad
 
@@ -75,16 +75,6 @@ The skills in `.ai-team/skills/` are standard markdown files. They work with any
 - **Codex** — See `.codex/INSTALL.md`
 - **OpenCode** — See `.opencode/INSTALL.md`
 - **Manual use** — Read the skill files directly as development process guides
-
-## Plans and Artifacts
-
-Following Squad AI Team conventions, plans and artifacts should be stored in:
-
-```
-docs/plans/YYYY-MM-DD-description.md
-```
-
-This is consistent with both the Superpowers convention and Squad's documentation patterns.
 
 ## Skill Confidence Levels
 

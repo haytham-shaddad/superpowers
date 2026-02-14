@@ -10,8 +10,6 @@ source: "manual"
 
 Use when implementation is complete, all tests pass, and you need to decide how to integrate the work. Guides completion by presenting structured options.
 
-Sourced from [Superpowers](https://github.com/obra/superpowers) by Jesse Vincent.
-
 ## Patterns
 
 1. **Verify all tests pass** — Run the full test suite one final time
@@ -29,7 +27,3 @@ Sourced from [Superpowers](https://github.com/obra/superpowers) by Jesse Vincent
 - Forgetting to clean up worktrees
 - Leaving branches dangling without a clear plan
 - Not running final verification before presenting options
-
-## See Also
-
-For the full skill content, see `skills/finishing-a-development-branch/SKILL.md` in the Superpowers repository.

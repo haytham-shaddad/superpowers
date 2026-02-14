@@ -10,8 +10,6 @@ source: "manual"
 
 Use when receiving code review feedback, before implementing suggestions. Requires technical rigor and verification, not performative agreement or blind implementation.
 
-Sourced from [Superpowers](https://github.com/obra/superpowers) by Jesse Vincent.
-
 ## Patterns
 
 1. **Evaluate technically** — Don't blindly agree with all feedback
@@ -34,7 +32,3 @@ For each piece of feedback:
 - Implementing suggestions without verifying they work
 - Dismissing feedback without technical justification
 - Making changes that break tests to satisfy a reviewer
-
-## See Also
-
-For the full skill content, see `skills/receiving-code-review/SKILL.md` in the Superpowers repository.
