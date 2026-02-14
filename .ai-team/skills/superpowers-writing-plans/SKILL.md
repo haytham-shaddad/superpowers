@@ -1,6 +1,6 @@
 ---
-name: "superpowers-writing-plans"
-description: "Write comprehensive implementation plans with bite-sized tasks before touching code"
+name: superpowers-writing-plans
+description: Write comprehensive implementation plans with bite-sized tasks before touching code
 domain: "planning"
 confidence: "high"
 source: "manual"

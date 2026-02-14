@@ -1,6 +1,6 @@
 ---
-name: "superpowers-code-review-request"
-description: "Pre-review compliance checklist before requesting code review — verify work meets requirements first"
+name: superpowers-code-review-request
+description: Pre-review compliance checklist before requesting code review — verify work meets requirements first
 domain: "quality"
 confidence: "high"
 source: "manual"

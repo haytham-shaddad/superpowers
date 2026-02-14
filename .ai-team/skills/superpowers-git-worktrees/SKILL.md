@@ -1,6 +1,6 @@
 ---
-name: "superpowers-git-worktrees"
-description: "Create isolated git worktrees for feature work — smart directory selection and safety verification"
+name: superpowers-git-worktrees
+description: Create isolated git worktrees for feature work — smart directory selection and safety verification
 domain: "workflow"
 confidence: "high"
 source: "manual"

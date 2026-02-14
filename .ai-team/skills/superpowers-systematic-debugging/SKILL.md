@@ -1,6 +1,6 @@
 ---
-name: "superpowers-systematic-debugging"
-description: "4-phase root cause analysis — observe, hypothesize, test, fix — before proposing any fixes"
+name: superpowers-systematic-debugging
+description: 4-phase root cause analysis — observe, hypothesize, test, fix — before proposing any fixes
 domain: "debugging"
 confidence: "high"
 source: "manual"

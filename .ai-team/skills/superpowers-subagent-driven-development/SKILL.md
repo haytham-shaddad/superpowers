@@ -1,6 +1,6 @@
 ---
-name: "superpowers-subagent-driven-development"
-description: "Execute plans by dispatching fresh subagent per task with two-stage review — spec compliance then code quality"
+name: superpowers-subagent-driven-development
+description: Execute plans by dispatching fresh subagent per task with two-stage review — spec compliance then code quality
 domain: "implementation"
 confidence: "high"
 source: "manual"

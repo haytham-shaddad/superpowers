@@ -1,6 +1,6 @@
 ---
-name: "superpowers-writing-skills"
-description: "Create new skills following best practices — TDD applied to process documentation"
+name: superpowers-writing-skills
+description: Create new skills following best practices — TDD applied to process documentation
 domain: "meta"
 confidence: "high"
 source: "manual"
@@ -18,8 +18,8 @@ Sourced from [Superpowers](https://github.com/obra/superpowers) by Jesse Vincent
 
 ```yaml
 ---
-name: "skill-name"
-description: "What this skill teaches agents"
+name: skill-name
+description: What this skill teaches agents
 domain: "e.g., testing, planning, workflow"
 confidence: "low|medium|high"
 source: "manual|observed|earned"

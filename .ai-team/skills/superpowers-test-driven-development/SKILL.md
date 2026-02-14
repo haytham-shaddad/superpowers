@@ -1,6 +1,6 @@
 ---
-name: "superpowers-test-driven-development"
-description: "RED-GREEN-REFACTOR cycle — write the test first, watch it fail, write minimal code to pass"
+name: superpowers-test-driven-development
+description: RED-GREEN-REFACTOR cycle — write the test first, watch it fail, write minimal code to pass
 domain: "testing"
 confidence: "high"
 source: "manual"

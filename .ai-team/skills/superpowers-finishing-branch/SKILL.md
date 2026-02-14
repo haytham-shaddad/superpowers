@@ -1,6 +1,6 @@
 ---
-name: "superpowers-finishing-branch"
-description: "Guide completion of development work — verify tests, present merge/PR/keep/discard options, clean up worktree"
+name: superpowers-finishing-branch
+description: Guide completion of development work — verify tests, present merge/PR/keep/discard options, clean up worktree
 domain: "workflow"
 confidence: "high"
 source: "manual"

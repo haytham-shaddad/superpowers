@@ -1,6 +1,6 @@
 ---
-name: "superpowers-parallel-agents"
-description: "Dispatch multiple independent tasks to concurrent agents when tasks have no shared state or sequential dependencies"
+name: superpowers-parallel-agents
+description: Dispatch multiple independent tasks to concurrent agents when tasks have no shared state or sequential dependencies
 domain: "implementation"
 confidence: "high"
 source: "manual"

@@ -1,6 +1,6 @@
 ---
-name: "superpowers-code-review-receive"
-description: "Evaluate review feedback with technical rigor — verify suggestions before implementing, push back on incorrect feedback"
+name: superpowers-code-review-receive
+description: Evaluate review feedback with technical rigor — verify suggestions before implementing, push back on incorrect feedback
 domain: "quality"
 confidence: "high"
 source: "manual"

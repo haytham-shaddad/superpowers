@@ -1,6 +1,6 @@
 ---
-name: "superpowers-verification"
-description: "Run verification commands and confirm output before claiming work is complete — evidence before assertions"
+name: superpowers-verification
+description: Run verification commands and confirm output before claiming work is complete — evidence before assertions
 domain: "quality"
 confidence: "high"
 source: "manual"

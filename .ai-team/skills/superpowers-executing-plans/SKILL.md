@@ -1,6 +1,6 @@
 ---
-name: "superpowers-executing-plans"
-description: "Execute implementation plans in batches with review checkpoints between each batch"
+name: superpowers-executing-plans
+description: Execute implementation plans in batches with review checkpoints between each batch
 domain: "implementation"
 confidence: "high"
 source: "manual"

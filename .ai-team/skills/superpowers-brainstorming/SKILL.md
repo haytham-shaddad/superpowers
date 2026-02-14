@@ -1,6 +1,6 @@
 ---
-name: "superpowers-brainstorming"
-description: "Collaborative design refinement before any creative work — creating features, building components, adding functionality, or modifying behavior"
+name: superpowers-brainstorming
+description: Collaborative design refinement before any creative work — creating features, building components, adding functionality, or modifying behavior
 domain: "planning"
 confidence: "high"
 source: "manual"
